@@ -27,5 +27,5 @@ maximum = get_number('Введите максимальное значение �
 result = []
 for i in range(len(array)):
     if minimum <= array[i] <= maximum:
-        result.append(array[i])
+        result.append(i)
 print(result)
